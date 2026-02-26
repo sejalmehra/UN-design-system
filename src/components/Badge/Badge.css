@@ -1,0 +1,54 @@
+.btn,
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--space-3);
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+  
+    font-family: var(--button-family, var(--font-sans));
+    font-size: var(--button-size);
+    font-weight: var(--button-weight);
+    line-height: var(--button-line-height);
+    letter-spacing: var(--button-letter-spacing);
+  
+    transition: background 0.15s ease;
+  }
+  
+.btn {
+    cursor: pointer;
+}
+
+.badge {
+    cursor: default;
+}
+  
+  /* Default state */
+  .btn--primary,
+  .badge--primary {
+    background: var(--color-action-primary);
+    color: var(--color-neutral-10);
+  }
+  
+  /* Hover state */
+  .btn--primary:hover,
+  .badge--primary:hover {
+    background: var(--color-action-primary-hover);
+  }
+  
+  /* Active state */
+  .btn--primary:active,
+  .badge--primary:active {
+    background: var(--color-action-primary-pressed);
+  }
+  
+  /* Disabled state */
+  .btn--disabled,
+  .badge--disabled {
+    background: var(--color-disabled);
+    color: var(--color-disabled-text);
+    cursor: not-allowed;
+    pointer-events: none;
+  }

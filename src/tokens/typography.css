@@ -1,0 +1,93 @@
+/* Tokens mapped from Figma typography styles */
+
+:root {
+
+    /* Font Families */
+    --font-sans: 'Roboto', sans-serif;
+  
+    /* Font Weights */
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+  
+    /* Line Heights */
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.75;
+  
+    /* Letter Spacing */
+    --tracking-tight: -0.02em;
+    --tracking-normal: 0em;
+    --tracking-wide: 0.05em;
+
+
+    /* Display Hero */
+    --display-hero: 64px;
+    --display-hero-weight: 700;
+    --display-hero-line-height: 72px;
+    --display-hero-letter-spacing: -1.28px;
+
+    /* Heading 1 */
+    --heading-1-family: Roboto;
+    --heading-1-size: 48px;
+    --heading-1-weight: 700;
+    --heading-1-line-height: 54px;
+    --heading-1-letter-spacing: -0.72px;
+
+    /* Heading 2 */
+    --heading-2-family: Roboto;
+    --heading-2-size: 36px;
+    --heading-2-weight: 600;
+    --heading-2-line-height: 42px;
+    --heading-2-letter-spacing: -0.36px;
+
+    /* Heading 3 */
+    --heading-3-family: Roboto;
+    --heading-3-size: 28px;
+    --heading-3-weight: 600;
+    --heading-3-line-height: 34px;
+    --heading-3-letter-spacing: -0.14px;
+
+    /* Subheader */
+    --subheader-family: Roboto;
+    --subheader-size: 20px;
+    --subheader-weight: 500;
+    --subheader-line-height: 255px;
+    --subheader-letter-spacing: -0.1px;
+
+    /* Body Lead */
+    --body-lead-family: Roboto;
+    --body-lead-size: 18px;
+    --body-lead-weight: 400;
+    --body-lead-line-height: 22.5px;
+    --body-lead-letter-spacing: 0.1px;
+
+    /* Body Main */
+    --body-main-family: Roboto;
+    --body-main-size: 16px;
+    --body-main-weight: 400;
+    --body-main-line-height: 20px;
+    --body-main-letter-spacing: 0px;
+
+    /* Body Small */
+    --body-small-family: Roboto;
+    --body-small-size: 14px;
+    --body-small-weight: 400;
+    --body-small-line-height: 17.5px;
+    --body-small-letter-spacing: 0.21px;
+
+    /* Label/Button */
+    --button-family: Roboto;
+    --button-size: 12px;
+    --button-weight: 700;
+    --button-line-height: 14px;
+    --button-letter-spacing: 0.36px;
+
+    /* Caption */
+    --caption-family: Roboto;
+    --caption-size: 11px;
+    --caption-weight: 500;
+    --caption-line-height: 13px;
+    --caption-letter-spacing: 0.22px;
+}

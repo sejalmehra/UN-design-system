@@ -1,0 +1,21 @@
+/* Tokens mapped from Figma spacing styles */
+
+:root {
+    /* Core spacing scale (px) from Figma */
+    --space-0: 0px;   /* No spacing */
+    --space-1: 8px;   /* Tight padding */
+    --space-2: 16px;  /* Between small components */
+    --space-3: 24px;  /* Card padding */
+    --space-4: 32px;  /* Section padding */
+    --space-5: 40px;  /* Large content blocks */
+    --space-6: 48px;  /* Page sections */
+    --space-7: 64px;  /* Layout separation */
+    --space-8: 96px;  /* Large layout separation */
+
+    /* Semantic aliases */
+    --space-xs: var(--space-1);
+    --space-sm: var(--space-2);
+    --space-md: var(--space-3);
+    --space-lg: var(--space-4);
+    --space-xl: var(--space-7);
+}
