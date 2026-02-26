@@ -1,0 +1,66 @@
+/* ── Base ── */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    padding: 0 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  
+    transition: background 0.15s ease;
+  }
+  
+  /* ── Primary (Blue) ── */
+  .btn--primary {
+    background: var(--Primary-80, #0081B2);
+    color: var(--Neutral-10, #FAFAFA);
+  }
+  .btn--primary:hover {
+    background: var(--Primary-70, #009EDB);
+  }
+  .btn--primary:active {
+    background: var(--Primary-90, #006389);
+  }
+  
+  /* ── Secondary (Green) ── */
+  .btn--secondary {
+    background: var(--Secondary-40, #9EDD88);
+    color: var(--Neutral-100, #0B0B0B);
+  }
+  .btn--secondary:hover {
+    background: var(--Secondary-60, #56C02B);
+    color: var(--Neutral-10, #FAFAFA);
+  }
+  .btn--secondary:active {
+    background: var(--Secondary-80, #387D1C);
+    color: var(--Neutral-10, #FAFAFA);
+  }
+  
+  /* ── Neutral (Gray) ── */
+  .btn--neutral {
+    background: var(--Neutral-50, #9CA3AF);
+    color: var(--Neutral-10, #FAFAFA);
+  }
+  .btn--neutral:hover {
+    background: var(--Neutral-60, #6B7280);
+  }
+  .btn--neutral:active {
+    background: var(--Neutral-80, #374151);
+  }
+  
+  /* ── Disabled (shared across all variants) ── */
+  .btn--disabled,
+  .btn--disabled:hover,
+  .btn--disabled:active {
+    background: var(--Neutral-30, #E5E7EB);
+    color: var(--Neutral-100, #0B0B0B);
+    cursor: not-allowed;
+    pointer-events: none;
+  }

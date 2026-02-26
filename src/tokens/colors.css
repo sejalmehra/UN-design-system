@@ -1,0 +1,61 @@
+/* Tokens mapped from Figma color styles */
+
+:root {
+    /* Primary Brand Color Scale */
+    --color-primary-100: #0057B7;
+    --color-primary-90: #006389;
+    --color-primary-80: #0081B2;
+    --color-primary-70: #009EDB; /* UN Blue */
+    --color-primary-60: #16BEFF;
+    --color-primary-50: #40CAFF;
+    --color-primary-40: #6AD5FF;
+    --color-primary-30: #94E1FF;
+    --color-primary-20: #BEEDFF;
+    --color-primary-10: #E7F8FF;
+
+    /* Secondary Brand Color Scale */
+    --color-secondary-80: #387D1C;
+    --color-secondary-60: #56C02B; /* UN Green */
+    --color-secondary-40: #9EDD88;
+    --color-secondary-20: #DDF3D3;
+
+    /* Neutral Brand Color Scale */
+    --color-neutral-100: #0B0B0B;
+    --color-neutral-90: #1F2933;
+    --color-neutral-80: #374151;
+    --color-neutral-70: #4B5563;
+    --color-neutral-60: #6B7280;
+    --color-neutral-50: #9CA3AF;
+    --color-neutral-40: #D1D5DB;
+    --color-neutral-30: #E5E7EB;
+    --color-neutral-20: #F3F4F6;
+    --color-neutral-10: #FAFAFA;
+
+    /* Semantic/Feedback Color Scale */
+    --color-success-base: #1F8F4A;
+    --color-success-subtle: #E6F4EC;
+    --color-warning-base: #B45309;
+    --color-warning-subtle: #FEF3C7;
+    --color-error-base: #B91C1C;
+    --color-error-subtle: #FEE2E2;
+    --color-info-base: #2563EB;
+    --color-info-subtle: #E0ECFF;
+
+    /* Semantic Alias Tokens */
+    --color-brand-primary: var(--color-primary-70);
+    --color-brand-primary-strong: var(--color-primary-80);
+    --color-brand-primary-weak: var(--color-primary-40);
+
+    --color-action-primary: var(--color-primary-70);
+    --color-action-primary-hover: var(--color-primary-60);
+    --color-action-primary-pressed: var(--color-primary-80);
+
+    --color-link-default: var(--color-primary-70);
+    --color-link-hover: var(--color-primary-60);
+
+    --color-disabled: var(--color-neutral-40);
+    --color-disabled-text: var(--color-neutral-60);
+
+    --color-accent-sustainability: var(--color-secondary-60);
+    --color-accent-sustainability-subtle: var(--color-secondary-20);
+}
