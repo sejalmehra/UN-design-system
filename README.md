@@ -5,4 +5,5 @@ This repository demonstrates how the UN Design System foundations (colors, spaci
 
 Figma components serve as the source of truth. This codebase provides a reference implementation for engineers.
 
-See [Figma Design System](https://www.figma.com/design/X2VjCzzgNwSN2ah3T0HOEs/United-Nations---Design-System-Components?node-id=11-2&t=zejkyP5dxwt5U6hA-1)
+See [Figma Design System](https://www.figma.com/design/X2VjCzzgNwSN2ah3T0HOEs/United-Nations---Design-System-Components?node-id=11-2&t=zejkyP5dxwt5U6hA-1) for more details and preview of rendered components is live via [Vercel](https://un-design-system.vercel.app/).
+
